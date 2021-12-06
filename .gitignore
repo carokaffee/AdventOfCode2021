@@ -1,0 +1,4 @@
+.idea
+**/input.txt
+session_name.txt
+*__pycache__*
