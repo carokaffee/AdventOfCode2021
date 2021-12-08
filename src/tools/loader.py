@@ -15,4 +15,4 @@ def load_data(use_test_input: bool, sep: str) -> List[str]:
     filename = get_filename(day_no, use_test_input)
     download_data(day_no)
     with open(filename) as f:
-        return f.read().split(sep)
+        return f.read().strip().split(sep)
